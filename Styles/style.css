@@ -1,0 +1,154 @@
+/*PAGE 1*/
+
+.DisplayPage1{
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.Menu{
+    text-align: center;
+    border:5px solid black;
+    border-radius: 10px;
+    background-color:azure;
+}
+
+.MenuText{
+    margin:10px;
+}
+
+.MenuText:hover{
+    background-color:aqua;
+    border:3px inset lightgray;
+    color:hotpink;
+}
+
+.FillerTextContainer{
+    background-color: beige;
+    padding:10px;
+    border-radius:10px;
+}
+.FillerText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image{
+    float:left;
+    background-image: url("../Images/pickaxe.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 90px;
+
+}
+@media screen and (max-width:992px) {
+    .FillerText{
+        background-color: rgb(235, 235, 235) ;
+    }
+}
+
+.imageDansTexte{
+    float:right;
+}
+
+/*FIN PAGE 1*/
+
+/*PAGE 2*/
+
+.containerMenu2{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aqua; 
+}
+
+.Menu2{
+    float:left
+}
+
+.menuText2{
+    display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.menuText2:hover {
+  background-color: rgb(159, 253, 253);
+}
+
+
+.containerContenu2Gauche{
+    float:left;
+    width:80%;
+    background-color: beige;
+    padding:10px;
+    border-radius:10px;
+}
+
+.containerContenu2Droite{
+    float:right;
+    width:15%;
+    background-color: rgb(135, 133, 255);
+    padding:10px;
+    border-radius:10px;
+}
+
+.Contenu2Gauche{
+    background-color: white;
+    padding:10px;
+    border-radius:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Contenu2Droite{
+    background-color: white;
+    padding:10px;
+    border-radius:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageTitre{
+    float:left;
+}
+
+/*FIN PAGE 2*/
+
+/*Gallerie*/
+.DisplayGalerie{
+    display:grid;
+    grid-template-columns: 25% 75%;
+    width: 1200px;
+}
+
+.containerZonePhoto{
+    background-color: beige;
+    border-radius: 10px;
+    padding:10px;
+}
+
+.zonePhoto{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+
+}
+
+.photo{
+    margin:10px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
